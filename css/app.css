@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #DA4453;
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453);  
+    background: linear-gradient(to right, #89216B, #DA4453); 
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.formulario{
+    background-color:dimgrey;
+    width: min(30rem, 100%);  /*utiliza el valor mas pequeño en este caso el 60rem */
+    margin: 0 auto;
+    margin-top: 10rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.formulario fieldset{
+    border: none;
+}
+
+.formulario legend{
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color:darkkhaki;
+}
+
+.contenedor-campo{
+
+}
+
+.campo{
+    margin-bottom: 1rem;
+    
+}
+
+.campo label{
+    color: aliceblue;
+    font-weight:bold;
+    display: block;
+    margin-bottom: .5rem;
+    
+}
+
+.input-text{
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+/* .campo input[type="text"],
+    .campo input[type="email"] otras formas para seleccionar solo 1 input o 2, para solo darles estilos. */
+
+
+.btn {
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 100%;
+}
